@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255,102,0);
+    justify-items: center;
+}
+
+h1 {
+    font-size: 0.9rem;
+}
+
+
+a{
+    margin: 3px; 
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+}
+
+.nav-icon {
+    width: 20px;
+    height: 20px;
+    border: 0.5px solid white;
+    font-weight: bold;
+    color: white;
+    background-color: white;
+}

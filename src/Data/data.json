@@ -1,0 +1,131 @@
+
+
+{
+    "hits": [
+        {
+            "created_at": "2022-04-23T11:12:38.000Z",
+            "title": "Ask HN: Experiences with HostCircle?",
+            "url": null,
+            "author": "rocciu",
+            "points": 1,
+            "story_text": "I came across hostcircle.nl (https:&#x2F;&#x2F;hostcircle.nl&#x2F;amd-epyc-servers.php) while looking for high-powered bare metal servers.<p>Their offer seems good, their prices (reasonably) competitive, but I&#x27;m a little spooked by the fact that there seems to be no Internet presence for this company at all (only a handful of employees on LinkedIn, no reviews or reputation on trustpilot, and so on).<p>Does anybody have experience with them?",
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1650712358,
+            "_tags": [
+                "story",
+                "author_rocciu",
+                "story_31133234",
+                "ask_hn"
+            ],
+            "objectID": "31133234",
+            "_highlightResult": {
+                "title": {
+                    "value": "Ask HN: Experiences with HostCircle?",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "rocciu",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "story_text": {
+                    "value": "I came across hostcircle.nl (https://hostcircle.nl/amd-epyc-servers.php) while looking for high-powered bare metal servers.<p>Their offer seems good, their prices (reasonably) competitive, but I'm a little spooked by the fact that there seems to be no Internet presence for this company at all (only a handful of employees on LinkedIn, no reviews or reputation on trustpilot, and so on).<p>Does anybody have experience with them?",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+
+{
+    "created_at": "2022-04-23T11:05:05.000Z",
+    "title": "JavaScript for Java-ish Developers",
+    "url": "https://blog.isquaredsoftware.com/presentations/2019-05-js-for-java-devs/#/0",
+    "author": "thunderbong",
+    "points": 1,
+    "story_text": null,
+    "comment_text": null,
+    "num_comments": 0,
+    "story_id": null,
+    "story_title": null,
+    "story_url": null,
+    "parent_id": null,
+    "created_at_i": 1650711905,
+    "_tags": [
+        "story",
+        "author_thunderbong",
+        "story_31133190"
+    ],
+    "objectID": "31133190",
+    "_highlightResult": {
+        "title": {
+            "value": "JavaScript for Java-ish Developers",
+            "matchLevel": "none",
+            "matchedWords": []
+        },
+        "url": {
+            "value": "https://blog.isquaredsoftware.com/presentations/2019-05-js-for-java-devs/#/0",
+            "matchLevel": "none",
+            "matchedWords": []
+        },
+        "author": {
+            "value": "thunderbong",
+            "matchLevel": "none",
+            "matchedWords": []
+        }
+    }
+},
+{
+    "created_at": "2022-04-23T11:03:54.000Z",
+    "title": "QuestPDF: C# Library for PDF Generation, Presented on JetBrains OSS Power-Ups",
+    "url": "https://www.youtube.com/watch?v=-iYvZvpLX0g",
+    "author": "MarcinZiabek",
+    "points": 1,
+    "story_text": null,
+    "comment_text": null,
+    "num_comments": 1,
+    "story_id": null,
+    "story_title": null,
+    "story_url": null,
+    "parent_id": null,
+    "created_at_i": 1650711834,
+    "_tags": [
+        "story",
+        "author_MarcinZiabek",
+        "story_31133179"
+    ],
+    "objectID": "31133179",
+    "_highlightResult": {
+        "title": {
+            "value": "QuestPDF: C# Library for PDF Generation, Presented on JetBrains OSS Power-Ups",
+            "matchLevel": "none",
+            "matchedWords": []
+        },
+        "url": {
+            "value": "https://www.youtube.com/watch?v=-iYvZvpLX0g",
+            "matchLevel": "none",
+            "matchedWords": []
+        },
+        "author": {
+            "value": "MarcinZiabek",
+            "matchLevel": "none",
+            "matchedWords": []
+        }
+    }
+}
+],
+"nbHits": 2054403,
+"page": 0,
+"nbPages": 50,
+"hitsPerPage": 20,
+"exhaustiveNbHits": false,
+"exhaustiveTypo": true,
+"query": "",
+"params": "advancedSyntax=true&analytics=true&analyticsTags=backend&tags=story",
+"processingTimeMS": 3
+}
