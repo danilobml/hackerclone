@@ -1,6 +1,4 @@
-
-.newscard-container {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
+.main-container{
+  margin: 0.5rem 3.8rem;
 }
+
