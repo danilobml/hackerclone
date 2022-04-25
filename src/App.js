@@ -2,6 +2,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import NewsCard from "./Components/NewsCard/NewsCard";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [data, setData] = useState();
@@ -23,6 +24,7 @@ function App() {
       <div className="main-container">
         <Navbar />
         <div className="newscard-container">{data && data.map((item, index) => <NewsCard key={index} data={item} index={index} />)}</div>
+        <Footer />
       </div>
     </div>
   );
