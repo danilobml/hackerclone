@@ -1,4 +1,23 @@
 .main-container{
   margin: 0.5rem 3.8rem;
+  margin-left: 7.5rem;
+  width: 85%;
+
 }
 
+.loading {
+  font-size: 20;
+  text-align: center;
+}
+
+.messages-div {
+  width: 100%;
+  margin: 1px solid rgb(255,102,0);
+  text-align: center;
+  font-size: bold;
+}
+
+.pagination-div {
+  display: flex;
+  justify-content: center;
+}
