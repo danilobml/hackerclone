@@ -8,13 +8,32 @@ const Navbar = () => {
       <div className="links">
         <img src={icon} className="nav-icon" alt="HackerNews icon" />
         <h1>Hacker News</h1>
-        <a href="#">new</a> |<a href="#">past</a> |<a href="#">comments</a> |<a href="#">ask</a> |<a href="#">show</a> |<a href="#">jobs</a> |<a href="#">submit</a>
+        <a href="#" className="nav-link">
+          new
+        </a>
+        <a href="#" className="nav-link">
+          past
+        </a>
+        <a href="#" className="nav-link">
+          comments
+        </a>
+        <a href="#" className="nav-link">
+          ask
+        </a>
+        <a href="#" className="nav-link">
+          show
+        </a>
+        <a href="#" className="nav-link">
+          jobs
+        </a>
+        <a href="#" className="nav-link">
+          submit
+        </a>
       </div>
       <div>
-        <input type="text" placeholder="Search" />
-        <button type="submit" className="search-button">
-          <FaSearch className="searcg-icon" />
-        </button>
+        <a href="#" className="log-link">
+          login
+        </a>
       </div>
     </div>
   );

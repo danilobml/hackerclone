@@ -4,7 +4,7 @@ import { differenceInCalendarDays } from "date-fns";
 import "./NewsCard.css";
 import { FaCaretUp } from "react-icons/fa";
 
-const NewsCard = ({ data, index }) => {
+const NewsCard = ({ data, index, page }) => {
   let domain = "";
   if (data.url) {
     domain = new URL(data.url);
@@ -24,12 +24,12 @@ const NewsCard = ({ data, index }) => {
 
   return (
     <div className="news-card" key={index}>
-      <span>{index + 1}. </span>
+      <span>{(page - 1) * 30 + index + 1}. </span>
       <FaCaretUp icon="fa-duotone fa-caret-up" className="upvote" />
-      <a className="title-link" href={data.url}>
+      <a className="title-link" href={data.url} target="_blank">
         {data.title}
       </a>
-      <a className="domain-link" href={domain}>
+      <a className="domain-link" href={domain} target="_blank">
         ({domain}){" "}
       </a>
       <div className="news-info">
