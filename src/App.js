@@ -26,6 +26,7 @@ function App() {
     page !== 1 && url.searchParams.set("page", page);
 
     setIsLoading(true);
+
     fetch(url)
       .then((res) => {
         if (!res.ok) {
@@ -34,13 +35,13 @@ function App() {
         return res.json();
       })
       .then((info) => {
-        setData(info.hits);
-        setIsLoading(false);
-        setIsError(false);
         setNumberPages(info.nbPages);
         if (!info.nbHits) {
           setNoResults(true);
         }
+        setData(info.hits);
+        setIsLoading(false);
+        setIsError(false);
       })
       .catch((error) => {
         console.log(error);

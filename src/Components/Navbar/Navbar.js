@@ -1,6 +1,5 @@
 import "./Navbar.css";
-import icon from "./icon.svg";
-import { FaSearch } from "react-icons/fa";
+import icon from "./y18.gif";
 
 const Navbar = () => {
   return (
