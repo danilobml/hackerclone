@@ -39,10 +39,11 @@ a{
 }
 
 .nav-icon {
-    margin: 3px;
-    width: 20px;
-    height: 18px;
-    border: 0.1px solid white;
+    margin: 2px;
+    margin-bottom: 1px;
+    width: 20.5px;
+    height: 20px;
+    border: 0.01px solid white;
     font-weight: bold;
     color: white;
     background-color: white;
